@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="stil.css"/>
+</head>
+
+<body>
+
+
+    <h1>JavaScript DOM Manupulation</h1>
+    <div class="container">
+        <div class="links">
+            <table cellpadding="10px" cellspacing="5px">
+                <tr>
+                    <td> Div Breite</td>
+                    <td><input type="text" id="breite" /></td>
+                </tr>
+                <tr>
+                    <td> Div Höhe</td>
+                    <td><input type="text" id="höhe" /></td>
+                </tr>
+                <tr>
+                    <td> Div Farbe</td>
+                    <td>
+                        <select name="" id="hintergrund_farbe">
+                            <option value="red">rot</option>
+                            <option value="blue">blau</option>
+                            <option value="black">schwarz</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Rahmen Breite</td>
+                    <td>
+                        <select name="" id="dicke">
+                            <option value="1px">1px</option>
+                            <option value="3px">3px</option>
+                            <option value="5px">5px</option>
+                            <option value="10px">10px</option>
+                            <option value="15px">15px</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Rahmen Typ</td>
+                    <td>
+                        <select name="" id="typ">
+                            <option value="solid">Solid</option>
+                            <option value="dotted">Gepunktete</option>
+                            <option value="dashed">Gestrichelte</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Rahmen Farbe</td>
+                    <td>
+                        <select name="" id="rahmen_farbe">
+                            <option value="rot">red</option>
+                            <option value="blue">blau</option>
+                            <option value="black">schwarz</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Margin Wert</td>
+                    <td><input type="text" id="aussen_margin"></td>
+                </tr>
+                <tr>
+                    <td>Padding Wert</td>
+                    <td><input type="text" id="innen_margin"/></td>
+                </tr>
+                <tr>
+                    <td>Rotate Wert</td>
+                    <td><input type="text" id="rotate"/></td>
+                </tr>
+                <td colspan="2">
+                    <button type="submit" id="erstellen">Senden</button>
+                </td>
+            </table>
+        </div>
+        <div class="rechts">Erstellte Div</div>
+    </div>
+    <script src="custom.js"></script>
+</body>
+
+</html>
